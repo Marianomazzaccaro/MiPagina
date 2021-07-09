@@ -1,0 +1,49 @@
+.Cards{
+   display: flex;
+  width: 100%;
+
+
+ 
+}
+
+.CardIn{
+    background-color: green;
+    width: 400px;
+    border: solid;
+    padding:10px;
+    height: auto;
+ 
+  
+    
+}
+.CardBody{
+    display: flex;
+    flex-direction: column;
+    width:400px;
+    
+}
+.CardTitle{
+  margin-bottom: 10px;
+    
+}
+.CardText{
+    width: 200px;
+}
+
+
+
+
+/* @media (min-width: 361px){
+    .Cards{
+        display: flex;
+        flex-direction: column;
+       align-content: space-between;
+    }
+}
+@media (min-width: 968px){
+    .Cards{
+        display: flex;
+        flex-direction: row;
+     
+    }
+} */

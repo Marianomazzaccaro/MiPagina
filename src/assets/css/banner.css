@@ -1,0 +1,67 @@
+ .banner{
+   height: 100vh;
+    width: 100%;
+    object-fit: contain; /*siempre mismo ancho para todo dispositivo*/
+      /*box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.6); */
+   display: flex;
+   align-items: center;
+   position: relative;
+   
+ 
+ }
+ 
+.video{
+
+    object-fit: cover; /*cubra el 100%*/
+    width: 100%;
+    height: 200vh;
+    position:absolute;
+    z-index: -1; /*por debajo del banner*/
+   ;
+   
+ 
+}
+.slide-content{
+   background-color: white;
+   width:60%;
+   height: 600px;
+   margin:auto;
+   border-radius: 10px;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   text-align: center;
+   padding:0px;
+   
+}
+
+/* .imgSlider{
+  
+   margin: auto;
+   background-color: black;
+} */
+.user-testimonial{
+   color:green;
+   font-size: 30px;
+   border-radius: 20px;   
+   padding-bottom: 30px;
+
+}
+
+
+/* .user-image{
+   width:70%;
+   height: 600px;
+  align-items:flex-start;
+   background-color: orange;
+
+}   */
+/* .user-photo{
+   
+   width: 100%;
+   height: auto;
+   border-radius: 45px;
+} */
+
+
