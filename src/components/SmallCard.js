@@ -9,38 +9,46 @@ function SmallCard(){
     
         return(
             <div className="Cards">
-                <div>
-                <Card className="CardIn">
+                <div className="CardIn">
+                <Card  >
                 {/* <CardImg style={{width:'18rem' }} variant="top" src={ss}/> */}
-              
-                <CardBody className="CardBody">                    
-                    <CardTitle className="CardTitle">Card Title</CardTitle>
+                <div className="CardTitle">                      
+                    <CardTitle >
+                        <h1>Back-end</h1>
+                    </CardTitle>
+                </div> 
+                <div className="CardText">
+                    <CardText  >
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea voluptatibus ipsa cum! Nam qui dolorum voluptatibus aliquid accusamus repellendus in ducimus dolores. Cupiditate fugit officiis, eligendi iure quisquam esse. Nam?
+                    </CardText>
+                    </div>                 
+                
+                </Card>
+                </div>
+                <div className="CardIn">
+                <Card  >
+                {/* <CardImg style={{width:'18rem' }} variant="top" src={ss}/> */}
+                                            
+                    <CardTitle className="CardTitle">
+                        <h1>Front-end</h1>
+                        </CardTitle>
                     <CardText className="CardText" >
-                    Some quick example text to bugggggggggggggggggggggggggssssssdasdasdasdasdasdasdasild on ssffffffffffffffffffffffffffffsssssssssssssssssssssssssffffffffffffffffffffssssssthe card title and make up the bulk of the card's content.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum molestiae neque velit aspernatur consequuntur quam eius autem aperiam cumque in, ea ducimus distinctio nesciunt error laborum fugit provident enim est!
                     </CardText>                 
-                </CardBody>
+                
                 </Card>
                 </div>
-                <div>
-                    <Card className="CardIn">
+                <div className="CardIn">
+                <Card  >
                 {/* <CardImg style={{width:'18rem' }} variant="top" src={ss}/> */}
-                <CardBody className="CardBody">
-                    <CardTitle className="CardTitle">Card Title</CardTitle>
-                    <CardText className="CardText">
-                    Some quick example text to build on the card title and make up the bulk of the card's content.
+                                            
+                    <CardTitle className="CardTitle">
+                        <h1>UX</h1>
+                        </CardTitle>
+                    <CardText className="CardText" >
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum molestiae neque velit aspernatur consequuntur quam eius autem aperiam cumque in, ea ducimus distinctio nesciunt error laborum fugit provident enim est!
                     </CardText>                 
-                </CardBody>
-                </Card>
-                </div>
-                <div>
-                <Card className="CardIn">
-                {/* <CardImg style={{width:'18rem' }} variant="top" src={ss}/> */}
-                <CardBody className="CardBody">
-                    <CardTitle className="CardTitle">Card Title</CardTitle>
-                    <CardText className="CardText">
-                    Some quick example text to build on the card title and make up the bulk of the card's content.
-                    </CardText>                 
-                </CardBody>
+                
                 </Card>
                 </div>
 
