@@ -14,12 +14,16 @@ function SmallCard(){
                 {/* <CardImg style={{width:'18rem' }} variant="top" src={ss}/> */}
                 <div className="CardTitle">                      
                     <CardTitle >
-                        <h1>Back-end</h1>
+                        <h1>Back-end / DataBase</h1>
                     </CardTitle>
                 </div> 
                 <div className="CardText">
                     <CardText  >
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea voluptatibus ipsa cum! Nam qui dolorum voluptatibus aliquid accusamus repellendus in ducimus dolores. Cupiditate fugit officiis, eligendi iure quisquam esse. Nam?
+                    <ul>
+                        <li>Node.js / JavaScript</li>
+                        <li>MySQL</li>
+                        <li>Express</li>
+                    </ul>
                     </CardText>
                     </div>                 
                 
@@ -33,7 +37,13 @@ function SmallCard(){
                         <h1>Front-end</h1>
                         </CardTitle>
                     <CardText className="CardText" >
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum molestiae neque velit aspernatur consequuntur quam eius autem aperiam cumque in, ea ducimus distinctio nesciunt error laborum fugit provident enim est!
+                    <ul>
+                        <li>React</li>
+                        <li>JavaScript</li>
+                        
+                        <li>JQuery</li>
+                        <li>BootStrap</li>
+                    </ul>
                     </CardText>                 
                 
                 </Card>
@@ -46,7 +56,10 @@ function SmallCard(){
                         <h1>UX</h1>
                         </CardTitle>
                     <CardText className="CardText" >
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum molestiae neque velit aspernatur consequuntur quam eius autem aperiam cumque in, ea ducimus distinctio nesciunt error laborum fugit provident enim est!
+                    <ul>
+                        <li>HTML / CSS</li>
+                        <li>Diseño de Wireframe</li>
+                    </ul>
                     </CardText>                 
                 
                 </Card>

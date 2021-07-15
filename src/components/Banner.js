@@ -45,7 +45,7 @@ function banner(){
         
         <div className="banner">
            
-        {/* <video className="video" src={bannerVideo} autoPlay loop muted/>  */}
+        <video className="video" src={bannerVideo} autoPlay loop muted/> 
      
         <Swiper
         
